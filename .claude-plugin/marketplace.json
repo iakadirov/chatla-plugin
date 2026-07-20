@@ -1,0 +1,17 @@
+{
+  "name": "chatla-plugins",
+  "owner": { "name": "Ibrohim", "url": "https://github.com/iakadirov" },
+  "metadata": {
+    "description": "Chatla mijozlari uchun Claude Code plugin marketplace'i.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "marketing-machine",
+      "source": "./marketing-machine",
+      "description": "Chatla mijozlari uchun kontent + marketing mashinasi: niche o'rganish, oylik reja, kontent produksiya, publish, analiz va optimizatsiya.",
+      "category": "marketing",
+      "tags": ["content", "instagram", "carousel", "uzbek", "chatla"]
+    }
+  ]
+}

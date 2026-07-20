@@ -1,0 +1,18 @@
+# Claude Code lokal sozlamalari (mashinaga xos, share qilinmaydi)
+.claude/settings.local.json
+.claude/*.local.json
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Muharrir
+.vscode/
+.idea/
+*.swp
+
+# Maxfiy ma'lumot
+.env
+.env.*
+*.key
