@@ -1,8 +1,8 @@
 {
   "name": "marketing-machine",
   "displayName": "Marketing Machine",
-  "version": "0.1.0",
-  "description": "Chatla mijozlari uchun kontent + marketing mashinasi: niche o'rganish, oylik reja, kontent produksiya (carousel/reels/story), publish, analiz va optimizatsiya skill'lari. Hozircha carousel-writer skill'i bilan boshlanadi va bosqichma-bosqich boyib boradi.",
+  "version": "0.2.0",
+  "description": "Chatla mijozlari uchun kontent + marketing mashinasi: niche o'rganish, oylik reja, kontent produksiya (carousel/reels/story), publish, analiz va optimizatsiya skill'lari. Hozirda carousel-writer va reference-driven reels-scripter skill'lari mavjud.",
   "author": { "name": "Ibrohim" },
   "homepage": "https://github.com/iakadirov/chatla-plugin",
   "repository": "https://github.com/iakadirov/chatla-plugin",
