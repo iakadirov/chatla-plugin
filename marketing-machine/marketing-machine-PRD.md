@@ -154,6 +154,7 @@ Bitta mijozda quyidagi zanjir ishlashi shart: **onboard → niche → oylik reja
 
 - ✅ Plugin skeleti: `marketing-machine` (marketplace: `chatla-plugins`, install: `marketing-machine@chatla-plugins`).
 - ✅ `carousel-writer` skill'i + `references/carousel-archetypes.md` (6 arxetip).
+- ✅ `viral-hooks` skill'i — 99 ta hook qolipi (5 oila), registr va persona teglari bilan. `carousel-writer` va `reels-scripter` ikkalasi ham ishlatadi.
 - ✅ `reels-scripter` skill'i (P1) — **reference-driven**: uslub o'ylab topilmaydi, kreatorning o'z referens reellaridan o'lchanadi.
   - Ingest pipeline (`tools/`): ffmpeg (vaqt belgili contact sheet, hook kadrlari, kesim tahlili) + faster-whisper large-v3 (so'zma-so'z transkript).
   - 15 ta referens reel to'liq teardown qilindi (536 KB) → `style-profile.md` (o'lchangan uslub) + `persona-override.md` (kreator tanlovi).

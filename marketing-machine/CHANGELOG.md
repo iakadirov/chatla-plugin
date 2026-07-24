@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.0
+- **`viral-hooks` skill'i** — 99 ta hook qolipi, beshta oilaga bo'lingan (qiziqish/fosh · shaxsiy tajriba · ta'limiy · provokatsiya · ilmoqli).
+- Har oila **registr** va **persona mosligi** bilan teglangan; dalil talab qiladigan qoliplar `⚠️` bilan belgilangan.
+- `carousel-writer` — 1-slayd muqovasi endi kutubxonadan **to'g'ridan-to'g'ri** olinadi.
+- `reels-scripter` — **ko'prik qoidasi**: kutubxona *burchak* beradi, `style-profile` §3 esa *shakl*. Qolipni ssenariyga to'g'ridan-to'g'ri ko'chirish taqiqlandi (o'lchangan ritmni buzadi).
+- Qoliplar raqamlangan va barqaror — kontent rejasida «hook #47» deb ko'rsatish mumkin.
+
+### Manba tozalash
+Ko'chirish artefaktlari tuzatildi (#22/#88 «birlektir…» → «birlashtir…» · #40 aralash yozuv · #58 va #37 buzilgan iboralar · #34/#35 bo'sh joylar). Asl raqamlash saqlangan.
+
 ## 0.2.0
 - **`reels-scripter` skill'i** (P1) — reference-driven: uslub o'ylab topilmaydi, referens reellardan o'lchanadi.
 - **Ingest pipeline** (`tools/`): `ffmpeg` bilan vaqt belgili contact sheet + hook kadrlari + kesim tahlili, `faster-whisper large-v3` bilan so'zma-so'z transkript.

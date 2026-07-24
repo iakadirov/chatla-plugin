@@ -64,7 +64,11 @@ Most carousels follow this shape. Adapt slide count to the topic (default **7–
 
 1. **Extract the core.** One line: what's the genuinely useful/surprising/save-worthy thing here? If the topic is flat, dig for the angle the viewer doesn't expect. This becomes the promise the whole carousel keeps.
 2. **Pick the archetype.** Read `references/carousel-archetypes.md` and choose the structure that fits the core (list / steps / myth-bust / framework / mistakes / story). The archetype decides the slide arc.
-3. **Get the hook.** If a hook was handed over (from `viral-hooks` or the plan), use it for Slide 1. If not, generate one now using the voltage rules — the cover must open a loop, not label the topic.
+3. **Get the hook.** If a hook was handed over (from `viral-hooks` or the plan), use it for Slide 1. If not, build one now from the **99-template library**: `../viral-hooks/references/hook-library-99.md` — five families, each tagged with the register it carries and which creator persona it fits.
+   - Pick the family the persona allows (the library's persona table); **family 4 (provocation) is wrong for the calm-expert voice** this skill uses by default.
+   - Fill `[kvadrat qavs]` with **concrete specifics** — real numbers, real names. A template filled with vague words reads as generic and kills the cover.
+   - Respect the ⚠️ markers: those templates demand real proof. **Discard the template rather than invent a claim.**
+   - Unlike `reels-scripter` (which re-casts the angle into a measured formula), carousels use the library template **directly** — there is no measured cadence profile to protect here.
 4. **Outline the slides** before writing prose: assign one idea to each slide along the arc. Verify swipe-through — does each slide give a reason to swipe on?
 5. **Write each slide:** headline ≤6 words + body ≤3 lines. Apply the continuity cue to body slides. Keep the payoff honest and concrete.
 6. **Engineer the last slide** as a conversion: pick ONE action. If a comment→DM keyword fits, propose it (this wires into Chatla). Otherwise SAVE.
@@ -162,9 +166,10 @@ If the user asks for only the copy (no visual briefs) or a specific slide count,
 - caption-cta-writer: caption + "DM" kaliti bilan birinchi izoh
 - localizer: RU varianti (mijoz auditoriyasi aralash bo'lsa)
 
-## Archetype library
+## Libraries
 
-`references/carousel-archetypes.md` — 6 carousel structures (list, steps, myth-bust, framework, mistakes, story), each with its slide arc and when to use it. Read it in step 2 of the workflow to pick the right shape; don't rely on memory.
+- `references/carousel-archetypes.md` — 6 carousel structures (list, steps, myth-bust, framework, mistakes, story), each with its slide arc and when to use it. Read it in step 2 to pick the right shape; don't rely on memory.
+- `../viral-hooks/references/hook-library-99.md` — 99 hook templates in five families for Slide 1. Read it in step 3. Templates are numbered and stable, so a content plan can specify "hook #47" and this skill will produce it.
 
 ## Note on edits
 Instructions are in English (clearer for the model); all slide copy and output are in Uzbek. To change the default slide count, voice, or output structure, edit the relevant section above.

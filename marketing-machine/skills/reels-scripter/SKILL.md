@@ -65,15 +65,21 @@ Produces per video in `_work/<stem>/`: `analysis.json`, `sheets/` (timestamped c
    ⚠️ **Do not default to E.** It is the rarest mode (13%) and reads as hesitant. Earlier versions of this skill wrongly treated it as universal.
    ⭐ **Never mix modes inside one script** — the CTA is the only exception (always imperative).
 4. **Pick the archetype** from the profile's §11 table (Hikoya / Listicle / Freymvork / Tutorial / Myth-bust / Anafora). The archetype sets length, promise timing, b-roll type and ending mode — **do not mix these settings across archetypes**. Cut cadence comes from the persona if one is set, otherwise from the archetype.
-4. **Build the hook from one of the 14 formulas** in profile §3. Fill it with this topic; don't invent a new shape. First word at t=0.00, no greeting. Hook text must be **85–100% on screen** (mute-proof).
-5. **Plant documentary proof in the first ~10s** — screenshot, archive frame, real interface. Never a bare claim.
-6. **Write the body** to the profile's sentence rules: median 10–12 words, `И/А/Но` openers, historical present for past events, verb chains, `НЕ X, А Y` antithesis, numbers escalating.
-7. **Design the on-screen text**: two registers (small white lowercase bridge + BIG CAPS, yellow = payload only), 1–3 words per card, a new card every **0.6–1.2s** — i.e. **2–4× faster than the cuts**. Build lines progressively. Numbers as digits.
-8. **Set the cut rhythm to meaning**: 4–6s hold on the central claim, 0.3–0.9s bursts on lists/proof, ~2.3s average. Cuts land on sentence boundaries, never on the beat.
-9. **Give every abstract idea a physical demonstration** — one prop/action per 6–9s.
-10. **Spend the imperative once.** Everywhere else: infinitive, inclusive «мы», or conditional «Я бы…».
-11. **Engineer the ending** by the archetype: universal aphorism / status line (default, 9/15) **or** the comment-keyword CTA formula (profile §8b) when a DM conversion is wanted — proof → reward named → `«Пиши [KALIT]»`, keyword derived from the topic.
-12. **Run the fidelity check.** Fix failures *before* showing the user.
+5. **Build the hook — two sources, two jobs.**
+   - **Angle** (what we lean on): pick from `../viral-hooks/references/hook-library-99.md` — 99 templates in five families, each tagged by register and persona fit. Respect its ⚠️ markers (templates needing real proof) and its persona table (family 4 is wrong for a calm-teacher persona).
+   - **Shape** (rhythm and length): cast that angle into one of the **14 measured formulas** in profile §3. These carry the corpus's actual sentence length and cadence.
+
+   ⭐ **Never paste a library template straight into a reel script** — it breaks the measured sentence-length and cadence work. Library finds the angle; profile §3 gives it the shape.
+
+   First word at t=0.00, no greeting. Hook text must be **85–100% on screen** (mute-proof).
+6. **Plant documentary proof in the first ~10s** — screenshot, archive frame, real interface. Never a bare claim.
+7. **Write the body** to the profile's sentence rules: median 10–12 words, `И/А/Но` openers, historical present for past events, verb chains, `НЕ X, А Y` antithesis, numbers escalating.
+8. **Design the on-screen text**: two registers (small white lowercase bridge + BIG CAPS, yellow = payload only), 1–3 words per card, a new card every **0.6–1.2s** — i.e. **2–4× faster than the cuts**. Build lines progressively. Numbers as digits.
+9. **Set the cut rhythm to meaning**: 4–6s hold on the central claim, 0.3–0.9s bursts on lists/proof, ~2.3s average. Cuts land on sentence boundaries, never on the beat.
+10. **Give every abstract idea a physical demonstration** — one prop/action per 6–9s.
+11. **Spend the imperative once.** Everywhere else: infinitive, inclusive «мы», or conditional «Я бы…».
+12. **Engineer the ending** by the archetype: universal aphorism / status line (default, 9/15) **or** the comment-keyword CTA formula (profile §8b) when a DM conversion is wanted — proof → reward named → `«Пиши [KALIT]»`, keyword derived from the topic.
+13. **Run the fidelity check.** Fix failures *before* showing the user.
 
 ## Fidelity check — every time
 
