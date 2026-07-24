@@ -16,3 +16,8 @@ Desktop.ini
 .env
 .env.*
 *.key
+
+# reels-scripter referens korpusi: xom videolar va ishlov kadrlari (hajmi katta)
+marketing-machine/skills/reels-scripter/referens-reels-hook/raw/*
+!marketing-machine/skills/reels-scripter/referens-reels-hook/raw/.gitkeep
+marketing-machine/skills/reels-scripter/referens-reels-hook/_work/
