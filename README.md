@@ -15,12 +15,15 @@ Claude Code ichida:
 
 | Plugin | Versiya | Tavsif |
 |---|---|---|
-| [marketing-machine](./marketing-machine) | 0.1.0 | Kontent + marketing mashinasi: niche o'rganish → oylik reja → produksiya → publish → analiz → optimizatsiya → hisobot. |
+| [marketing-machine](./marketing-machine) | 0.3.0 | Kontent + marketing mashinasi: niche o'rganish → oylik reja → produksiya → publish → analiz → optimizatsiya → hisobot. |
 
 ### marketing-machine skill'lari
 
-- **carousel-writer** — mavzudan slayd-slayd Instagram carousel copy yozadi (o'zbekcha,
+- **carousel-writer** — mavzudan slayd-slayd Instagram carousel copy (o'zbekcha,
   "Shunchaki Nega?" registrida). Save + comment→DM uchun optimallashtirilgan.
+- **reels-scripter** — reference-driven Reels ssenariysi: uslub kreatorning o'z referens
+  reellaridan o'lchanadi. Chiqish — kadrma-kadr raskadrovka.
+- **viral-hooks** — 99 ta hook qolipi (5 oila), yuqoridagi ikkala skill ham ishlatadi.
 
 ## Lokal test
 
@@ -58,9 +61,10 @@ chatla-plugin/
 ├── marketing-machine/            # plugin
 │   ├── .claude-plugin/plugin.json
 │   ├── skills/
-│   │   └── carousel-writer/
-│   │       ├── SKILL.md
-│   │       └── references/carousel-archetypes.md
+│   │   ├── carousel-writer/
+│   │   ├── reels-scripter/       # + referens-reels-hook/ va tools/
+│   │   └── viral-hooks/
+│   ├── marketing-machine-PRD.md
 │   ├── README.md
 │   └── CHANGELOG.md
 ├── LICENSE

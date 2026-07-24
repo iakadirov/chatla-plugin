@@ -4,7 +4,7 @@
 |---|---|
 | **Mahsulot** | `marketing-machine` — Chatla mijozlari uchun kontent + marketing mashinasi (Claude plugin) |
 | **Egasi** | Ibrohim |
-| **Holat** | Draft · v0.1 (skelet qurilgan, `carousel-writer` skill'i tayyor) |
+| **Holat** | v0.3.0 · 3 skill tayyor: `carousel-writer` · `reels-scripter` · `viral-hooks` |
 | **Yo'nalish** | Chatla mijozlariga xizmat/mahsulot (productized service), multi-tenant |
 | **Umurtqa** | Chatla MCP (system-of-record: brain · plan · publish · DM · analitika) |
 
@@ -63,7 +63,7 @@ Content → komment→DM → lead → sotuv: yopiq ROI halqasi. Har hisobotning 
 
 ## 7. Functional Requirements
 
-Skill kutubxonasi 9 qatlam / ~44 skill. Ustuvorlik to'lqinlar bo'yicha. **★ = mavjud** (`viral-hooks`, `oson-tushuntirish`, `higgsfield-content-factory`).
+Skill kutubxonasi 9 qatlam / ~44 skill. Ustuvorlik to'lqinlar bo'yicha. **✅ = shu repoda qurilgan** · **★ = boshqa joyda mavjud** (`oson-tushuntirish`, `higgsfield-content-factory`).
 
 ### P0 — Must-Have (v1 / To'lqin 1: bitta pilot mijozda uchidan-uchiga ROI)
 Bitta mijozda quyidagi zanjir ishlashi shart: **onboard → niche → oylik reja → carousel produksiya → guardrail → publish → hisobot + tannarx**.
@@ -150,7 +150,25 @@ Bitta mijozda quyidagi zanjir ishlashi shart: **onboard → niche → oylik reja
 - **[Mahsulot]** Har mijoz uchun avtonomiya darajasi (approval qamrovi)? — default: reja + asset partiyasi tasdiqlanadi.
 - **[Muhandislik]** Tarqatish: bitta umumiy marketplace vs mijozga alohida; `userConfig` orqali token — qaysi model?
 
-## 13. Appendix — Hozirgi holat (v0.1)
+## 13. Appendix — Hozirgi holat (v0.3.1 · 2026-07-24)
+
+### Qayerda to'xtadik
+
+`main` = 3 skill tayyor va plugin ro'yxatida ko'rinadi (tekshirilgan). Reels ssenariysi
+«Solo founder × AI» mavzusida sinovdan o'tkazildi — 2 marta qayta yozildi: avval ruscha
+(korpus tilida), keyin o'zbekchaga adaptatsiya, so'ng **ustoz registriga** (B rejimi,
+3–4s kadrlar) qayta qurildi.
+
+### Navbatdagi qadam (ustuvorlik bo'yicha)
+
+1. **`caption-cta-writer`** — ikkala produksiya skill'i ham unga handoff qiladi, lekin u
+   **hali yo'q**: zanjir oxirida uziladi. Eng katta bo'shliq.
+2. **Persona sozlash** — `persona-override.md` da hozir «sen» murojaati. Sinovda «siz» ham
+   baholansin; ustoz registriga qaysi biri tabiiyroq ekani hal qilinsin.
+3. **Xom videolar zaxirasi** — `raw/` (240 MB) faqat ishlab chiqish mashinasida. Profilni
+   qayta hisoblash kerak bo'lsa ular zarur. Drive yoki tashqi diskka ko'chirilsin.
+
+### Nima qurilgan
 
 - ✅ Plugin skeleti: `marketing-machine` (marketplace: `chatla-plugins`, install: `marketing-machine@chatla-plugins`).
 - ✅ `carousel-writer` skill'i + `references/carousel-archetypes.md` (6 arxetip).
