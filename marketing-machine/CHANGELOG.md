@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.1
+- **Fix:** `reels-scripter` plugin ro'yxatida umuman ko'rinmasdi (jimgina o'tkazib yuborilardi).
+  `claude plugin validate --strict` o'tgan, YAML to'g'ri, `name` papka nomiga mos edi —
+  yagona farq: tanadagi **5 ta `---`** gorizontal chiziq (frontmatter ajratgichi bilan bir xil belgi).
+  Olib tashlandi, mazmun o'zgarmadi.
+- Description 1107 → 654 belgi qisqartirildi. *(Dastlab sabab shu deb o'ylangandi — noto'g'ri:
+  hujjatdagi chegara 1536 belgi va u qisqartiradi, o'chirmaydi. Qisqartirish baribir foydali.)*
+- README'lar va PRD holati v0.3 ga moslashtirildi.
+
 ## 0.3.0
 - **`viral-hooks` skill'i** — 99 ta hook qolipi, beshta oilaga bo'lingan (qiziqish/fosh · shaxsiy tajriba · ta'limiy · provokatsiya · ilmoqli).
 - Har oila **registr** va **persona mosligi** bilan teglangan; dalil talab qiladigan qoliplar `⚠️` bilan belgilangan.
