@@ -29,7 +29,6 @@ Three layers, applied in this order. **Later layers override earlier ones.**
 
 ⚠️ **Never skip step 2.** A persona override typically changes cut cadence, sentence length, teaching mode and whether imperatives are allowed. Generating without it produces a script in the wrong voice even though every profile rule passes.
 
----
 
 # Phase 1 — Ingest new references (only when the user adds videos)
 
@@ -46,7 +45,6 @@ Produces per video in `_work/<stem>/`: `analysis.json`, `sheets/` (timestamped c
 > - **Scene-detect lied in 13 of 15 videos** — both over- and under-counting. Contact sheets are the ground truth for montage rhythm.
 > - **`cpu_threads` must stay at 4** and each video needs its own fresh process, or faster-whisper dies with `mkl_malloc: failed to allocate memory`. Loading `large-v3` also needs **~600 MB free disk**; `transcribe_seq.sh` aborts below 1.2 GB rather than thrash a full volume.
 
----
 
 # Phase 2 — Generate a script
 
@@ -102,7 +100,6 @@ Report as a table with three columns: **profil talabi · persona talabi · bu ss
 
 State the result briefly with numbers, e.g. *"jumla mediana 11 so'z ✅ · matn/kesim nisbati 2.8× ✅ · 1 buyruq ✅"*.
 
----
 
 # Output format
 
@@ -148,7 +145,6 @@ matn: har ~X.Xs (kesimdan X.X× tez)
 - 🇺🇿 O'zbekcha adaptatsiya: so'rasangiz alohida pass
 ```
 
----
 
 # Retention physics (Mode B floor / the "why")
 
@@ -165,7 +161,6 @@ Instagram ranks Reels on **watch time**, then **sends per reach**, then **likes 
 
 **Mode B spine:** HOOK (0–3s) → STAVKA → QIYMAT beats (1.5–3s each) → PAYOFF → LOOP/CTA.
 
----
 
 # Files
 
